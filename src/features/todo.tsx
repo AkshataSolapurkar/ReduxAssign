@@ -1,5 +1,6 @@
 import { createSlice,nanoid,PayloadAction } from "@reduxjs/toolkit";
 
+export type RootState = typeof initialState;
 const initialState ={
     todo :[{id:1 ,text:"hello"}]
 }
